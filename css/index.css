@@ -6,10 +6,10 @@
     line-height: 1.15;
 }   */
 body {
-    margin-left: 35px;
-    margin-right: 35px;
+    padding-left: 35px;
+    padding-right: 35px;
     background-color: #E5E9EE;
-    width: 97%;
+    width: 94%;
     height: 100%;
     /* display: inline-block; */
 }
@@ -39,9 +39,9 @@ body {
     color: black;
     text-decoration-line: none;
     display: inline-block;
-    text-align  : right;
-    padding-inline: 60px;
-    width: 120px;
+    text-align: right;
+    padding-inline: 57px;
+    width: 117px;
 }
 
 #main_footer {
