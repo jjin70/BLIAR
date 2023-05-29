@@ -49,19 +49,26 @@
 
 #circle {
     box-sizing: border-box;
-    width: 270px;
-    height: 270px;
-    border-radius: 135px;
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
     background-color: #596A85;
     position: absolute;
-    top: 30%;
-    left: 7.9%;
+    top: 35%;
+    left: 10%;
+}
+
+#user {
+    font-size: 55px;
+    position: absolute;
+    top: 54%;
+    left: 13%;
 }
 
 #buttonSet {
     position: absolute;
-    top: 71%;
-    left: 5.7%;
+    top: 75%;
+    left: 6.6%;
 }
 
 #button1 {
@@ -80,9 +87,9 @@
     cursor:pointer;
 }
 
-#sns_img, #github_img, #mail_img  {
-    width: 100px;
-    height: 100px;
+#sns_img, #github_img, #mail_img {
+    width: 90px;
+    height: 90px;
 }
 
 #profile {
