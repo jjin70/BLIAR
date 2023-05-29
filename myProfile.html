@@ -18,7 +18,46 @@
             <a href="myProfile.html" id="btn_myProfile">My Profile</a>
         </nav>
     </div>
-
+    
+    <div id="myProfile">
+        <div class="row">
+            <div class="column">
+                <div id="top"></div>
+                <div id="bottom"></div>
+                <div id="circle"></div>
+                <!-- <div id="buttonC"> -->
+                <div class="row" id="buttonSet">
+                    <button type="button" id="button1"><img src="images/sns.jpg" id="sns_img"></button>
+                    <button type="button" id="button2"><img src="images/github.jpg" id="github_img"></button>
+                    <button type="button" id="button3"><img src="images/mail.jpg" id="mail_img"></button>
+                </div>
+            </div> 
+            <div class="column">
+                <div id="profile">
+                    <p><b>Profile</b></p>
+                    <div class="row">
+                        <div id="name">&nbsp;Name <br><input type="text" placeholder=" 양희진"></div>
+                        <div id="id">&nbsp;Id <br><input type="text" placeholder=" heejin"></div>
+                        <div id="pwd">&nbsp;Password <br><input type="password" placeholder=" password"></div>
+                    </div>
+                    <div id="address">&nbsp;Address <input type="text" placeholder=" 서울특별시 중구"></div>
+                    <div id="job">&nbsp;Job <input type="text" placeholder=" 대학생"></div>
+                    <div id="aboutMe"><textarea placeholder=" About me"></textarea></div>
+                </div>
+            </div>
+            <div id="save">
+                <button type="button" id="saveB" onclick='alert("저장되었습니다.")'><b>저장</b></button>
+            </div>
+        </div>
+        <div id="logout">
+            <button type="buttn" id="logoutB" onclick='confirm("로그아웃하시겠습니까?")'><b>로그아웃</b></button>
+        </div>
+        <div id="withdrawal">
+            <button type="button" id="withdrawalB" onclick='confirm("탈퇴하시겠습니까?")'><b>탈퇴</b></button>
+        </div>
+        
+    </div>
+    
     <footer id="main_footer">
         <div>
             TEL. 02-123-4567 | MAIL. jjin0434@naver.com <br>
