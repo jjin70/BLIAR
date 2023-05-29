@@ -2,86 +2,48 @@
     font-weight: bold;
 }
 
-section {
-    display: inline-block;
-    width: 100%;
-    height: 100%;
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /* justify-content: space-around; */
+    /* padding: 13px; */
+    padding-left: 0px;
 }
 
-#main_image {
-    display: inline-block;
-    width: 100%;
-    height: 100%;
+.column {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    /* justify-content: space-around; */
+    /* width: calc(100% / 2); */
+    padding: 10px;
+    padding-left: 0px;
 }
 
 #main_img {
-    width: 1050px;
-    height: 300px;
-    display: inline-block;
-    position: absolute;
+    width: 100%;
+    height: 315px;
 }
 
-section #main_image p {
-    font-size: 30px;
+#main_image p {
+    font-size: 35px;
     font-family: 'Comic Sans MS';
-    display: inline-block;
     position: absolute;
-    text-align: right;
-    width: 900px;
-    /* height: 300px; */
+    top: 27%;
+    left: 43%;
 }
 
 #main_image span {
     color: #596A85;
 }
 
-section #main_todo {
-    display: inline-block;
-    position: absolute;
-    width: 410px;
-    height: 580px;
-    top: 134px;
-    right: 0px;
+#main_notice {
     background: #CCD2DD;
-    margin-right: 32px;
-}
-
-#main_todo p {
-    margin-top: 6px;
-    margin-bottom: 15px;
-    padding-left: 23px;
-    padding-top: 14px;
-    font-size: 26px;
-    font-weight: bold;
-}
-
-#main_todo #todo {
-    display: inline-block;
-    position: absolute;
-    width: 360px;
-    height: 490px;
-    top: 67px;
-    left: 25px;
-    background: #AFB8CA;
-}
-
-#main_todo form {
-    font-size: 23px;
-    padding-top: 13px;
-    padding-left: 20px;
-    padding-right: 20px;
-    line-height: 200%;
-}
-
-section #main_notice {
-    display: inline-block;
-    position: relative;
-    top: 306px;
-    left: 0px;
-    background: #CCD2DD;
-    height: 270px;
-    width: 520px;
+    height: 230px;
+    width: 500px;
     margin-right: 4px;
+    margin-top: 7px;
 }
 
 #main_notice p {
@@ -97,21 +59,74 @@ section #main_notice {
     padding-left: 25px;
 }
 
-section #main_memo {
-    display: inline-block;
-    position: relative;
-    top: 200px;
-    left: 0px;
+#main_memo {
     background: #CCD2DD;
-    height: 270px;
+    height: 229px;
     width: 520px;
+    margin-top: 7px;
+    margin-left: 7px;
+    padding-left: 21px;
+    padding-right: 20px;
 }
 
 #main_memo p {
     margin-top: 0px;
-    padding-left: 23px;
+    padding-left: 15px;
     padding-top: 13px;
-    font-size: 26px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+#main_memo textarea {
+    line-height: 265%;
+    width: 98.5%;
+    margin-top: 10px;
+    border: #808080 2px solid;
+    background: none;
+    font-size: 25px;
+}
+
+#main_todo {
+    width: 108%;
+    height: 555px;
+    background: #CCD2DD;
+    /* margin-left: 24%; */
+}
+
+#main_todo p {
+    margin-top: 6px;
+    margin-bottom: 15px;
+    padding-left: 34px;
+    padding-top: 10px;
+    font-size: 35px;
     font-weight: bold;
 }
 
+#main_todo #todo {
+    width: 90%;
+    height: 458px;
+    background: #AFB8CA;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#main_todo form {
+    font-size: 20px;
+    padding-top: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 200%;
+}
+
+#main_todo input[type=text] {
+    border: none;
+    font-size: 20px;
+    background: #AFB8C9;
+    /* width: 100%; */
+    height: 100%;
+}
+
+input::hover {
+    border:none;
+}
