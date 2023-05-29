@@ -56,13 +56,13 @@
 
 #friends #friendsList {
     width: 89%;
-    height: 77%;
-    font-size: 20px;
+    font-size: 32px;
     border-width: 1px;
     border-style: solid;
     border-collapse: collapse;
     margin-left: 15px;
     margin-right: 15px;
+    font-weight: 400;
 }
 
 #friendsList td {
@@ -70,12 +70,26 @@
     border-style: solid;
     padding: 10px;
     /* border-collapse: collapse; */
+    line-height: 30px;
 }
 
-/* .profile_img { 
-    border-radius: 70%;
-    width: 1%;
-} */
+#friendsList button {
+    font-size: 1px;
+    background: none;
+    /* border: 1px solid #AAB5C6; */
+    border: none;
+    border-radius: 100%;
+    /* color: red; */
+    /* text-align: right; */
+    cursor: pointer;
+    color: #AAB5C6;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
 
 #F_newWrite {
     background-color: #CCD2DD;
