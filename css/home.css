@@ -29,9 +29,9 @@
 #main_image p {
     font-size: 35px;
     font-family: 'Comic Sans MS';
-    position: absolute;
+    /* position: absolute;
     top: 27%;
-    left: 43%;
+    left: 43%; */
 }
 
 #main_image span {
@@ -88,7 +88,7 @@
 }
 
 #main_todo {
-    width: 108%;
+    width: 100%;
     height: 555px;
     background: #CCD2DD;
     /* margin-left: 24%; */
@@ -97,7 +97,7 @@
 #main_todo p {
     margin-top: 6px;
     margin-bottom: 15px;
-    padding-left: 34px;
+    padding-left: 30px;
     padding-top: 10px;
     font-size: 35px;
     font-weight: bold;
@@ -107,8 +107,8 @@
     width: 90%;
     height: 458px;
     background: #AFB8CA;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 15px;
+    /* margin-right: 14px; */
 }
 
 #main_todo form {
@@ -123,10 +123,11 @@
     border: none;
     font-size: 20px;
     background: #AFB8C9;
-    /* width: 100%; */
+    width: 88%;
     height: 100%;
 }
 
-input::hover {
+input:hover {
     border:none;
 }
+

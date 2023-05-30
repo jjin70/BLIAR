@@ -5,7 +5,7 @@
     <title>BLIAR</title>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/myProfile.css">
-    <script src="button.js"></script>
+    <script src="javascript/memberManage.js"></script>
 </head>
 
 <body>
@@ -29,8 +29,8 @@
                 <div id="user"><p><b>user</b></p></div>
                 <div class="row" id="buttonSet">
                     <button type="button" id="button1" onclick='sns()'><img src="images/sns.jpg" id="sns_img"></button>
-                    <button type="button" id="button2"><img src="images/github.jpg" id="github_img"></button>
-                    <button type="button" id="button3"><img src="images/mail.jpg" id="mail_img"></button>
+                    <button type="button" id="button2" onclick='github()'><img src="images/github.jpg" id="github_img"></button>
+                    <button type="button" id="button3" onclick='mail()'><img src="images/mail.jpg" id="mail_img"></button>
                 </div>
             </div> 
             <div class="column">
@@ -47,14 +47,14 @@
                 </div>
             </div>
             <div id="save">
-                <button type="button" id="saveB" onclick='alert("저장되었습니다.")'><b>저장</b></button>
+                <button type="button" id="saveB" onclick='button()'><b>저장</b></button>
             </div>
         </div>
         <div id="logout">
             <button type="buttn" id="logoutB" onclick='logout()'><b>로그아웃</b></button>
         </div>
         <div id="withdrawal">
-            <button type="button" id="withdrawalB" onclick='confirm("탈퇴하시겠습니까?")'><b>탈퇴</b></button>
+            <button type="button" id="withdrawalB" onclick='withdrawal()'><b>탈퇴</b></button>
         </div>
         
     </div>

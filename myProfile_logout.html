@@ -5,6 +5,7 @@
     <title>BLIAR</title>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/myProfile.css">
+    <script src="javascript/memberManage.js"></script>
 </head>
 
 <body>
@@ -15,7 +16,7 @@
             <a href="write.html" id="btn_write">Write</a>
             <a href="friends.html" id="btn_friends">Friends</a>
             <a href="aboutUs.html" id="btn_aboutUs">About us</a>
-            <a href="myProfile.html" id="btn_myProfile">Login</a>
+            <a href="myProfile.html" id="btn_myProfile">LogIn</a>
         </nav>
     </div>
     
@@ -27,33 +28,33 @@
                 <div id="circle"></div>
                 <div id="user"><p><b>user</b></p></div>
                 <div class="row" id="buttonSet">
-                    <button type="button" id="button1"><img src="images/sns.jpg" id="sns_img"></button>
-                    <button type="button" id="button2"><img src="images/github.jpg" id="github_img"></button>
-                    <button type="button" id="button3"><img src="images/mail.jpg" id="mail_img"></button>
+                    <button type="button" id="button1" onclick='sns()'><img src="images/sns.jpg" id="sns_img"></button>
+                    <button type="button" id="button2" onclick='github()'><img src="images/github.jpg" id="github_img"></button>
+                    <button type="button" id="button3" onclick='mail()'><img src="images/mail.jpg" id="mail_img"></button>
                 </div>
             </div> 
             <div class="column">
                 <div id="profile">
                     <p><b>Profile</b></p>
                     <div class="row">
-                        <div id="name">&nbsp;Name <br><input type="text" placeholder=" 양희진"></div>
-                        <div id="id">&nbsp;Id <br><input type="text" placeholder=" heejin"></div>
-                        <div id="pwd">&nbsp;Password <br><input type="password" placeholder=" password"></div>
+                        <div id="name">&nbsp;Name <br><input type="text"></div>
+                        <div id="id">&nbsp;Id <br><input type="text"></div>
+                        <div id="pwd">&nbsp;Password <br><input type="password"></div>
                     </div>
-                    <div id="address">&nbsp;Address <input type="text" placeholder=" 서울특별시 중구"></div>
-                    <div id="job">&nbsp;Job <input type="text" placeholder=" 대학생"></div>
-                    <div id="aboutMe"><textarea placeholder=" About me"></textarea></div>
+                    <div id="address">&nbsp;Address <input type="text"></div>
+                    <div id="job">&nbsp;Job <input type="text"></div>
+                    <div id="aboutMe"><textarea></textarea></div>
                 </div>
             </div>
             <div id="save">
-                <button type="button" id="saveB" onclick='alert("저장되었습니다.")'><b>저장</b></button>
+                <button type="button" id="saveB" onclick='button()'><b>저장</b></button>
             </div>
         </div>
         <div id="logout">
             <button type="buttn" id="logoutB" onclick='logout()'><b>로그아웃</b></button>
         </div>
         <div id="withdrawal">
-            <button type="button" id="withdrawalB" onclick='confirm("탈퇴하시겠습니까?")'><b>탈퇴</b></button>
+            <button type="button" id="withdrawalB" onclick='withdrawal()'><b>탈퇴</b></button>
         </div>
         
     </div>
