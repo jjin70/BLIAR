@@ -1,6 +1,9 @@
 #btn_myProfile {
     font-weight: bold;
 }
+#btn_login {
+    font-weight: bold;
+}
 
 .row {
     display: flex;
