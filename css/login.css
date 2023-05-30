@@ -1,5 +1,6 @@
 #btn_login {
     font-weight: bold;
+    cursor: pointer;
 }
 
 #login {
@@ -34,4 +35,5 @@
     top: 69%;
     left: 34%;
     font-size: 15px;
+    /* cursor: pointer; */
 }
