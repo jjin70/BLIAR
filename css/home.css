@@ -29,9 +29,9 @@
 #main_image p {
     font-size: 35px;
     font-family: 'Comic Sans MS';
-    /* position: absolute;
+    position: absolute;
     top: 27%;
-    left: 43%; */
+    left: 43%;
 }
 
 #main_image span {
@@ -88,7 +88,7 @@
 }
 
 #main_todo {
-    width: 100%;
+    width: 105%;
     height: 555px;
     background: #CCD2DD;
     /* margin-left: 24%; */
