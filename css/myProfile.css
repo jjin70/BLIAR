@@ -9,8 +9,6 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    /* justify-content: space-around; */
-    /* padding: 13px; */
     padding-left: 0px;
 }
 
@@ -19,7 +17,6 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
-    /* width: calc(100% / 2); */
     padding: 10px;
     padding-right: 0px;
 }
@@ -34,7 +31,6 @@
     box-sizing: border-box;
     width: 370px;
     height: 201px;
-    /* margin: 20px auto; */
     background-color: #E5E9EE;
     margin: 20px;
     margin-bottom: 0px;
@@ -44,7 +40,6 @@
     box-sizing: border-box;
     width: 370px;
     height: 297px;
-    /* margin: 20px auto; */
     background-color: #AAB5C6;
     margin: 20px;
     margin-top: 0px;
@@ -100,7 +95,6 @@
     margin: 20px;
     margin-left: -10px;
     font-size: 25px;
-    /* line-height: 298%; */
     height: 498px;
     padding-left: 40px;
     padding-right: 25px;
@@ -127,8 +121,6 @@
     border: #808080 2px solid;
     font-size: 25px;
     background: none;
-    /* margin: 15px;
-    margin-top: 0px; */
     width: 85%;
     height: 100%;
 }
@@ -136,8 +128,6 @@
     border: #808080 2px solid;
     font-size: 25px;
     background: none;
-    /* margin: 15px;
-    margin-top: 0px; */
     width:  85%;
     height: 100%;
 }
@@ -145,8 +135,6 @@
     border: #808080 2px solid;
     font-size: 25px;
     background: none;
-    /* margin: 15px;
-    margin-top: 0px; */
     width: 95%;
     height: 100%;
 }
@@ -158,8 +146,6 @@
     border: #808080 2px solid;
     font-size: 25px;
     background: none;
-    /* margin: 15px;
-    margin-top: 0px; */
     width: 86.4%;
     height: 100%;
 }
@@ -172,15 +158,10 @@
     border: #808080 2px solid;
     font-size: 25px;
     background: none;
-    /* margin: 15px;
-    margin-top: 0px; */
     width: 92%;
     height: 100%;
 }
 
-/* #aboutMe {
-    line-height: 1082%;
-} */
 #aboutMe textarea {
     border: #808080 2px solid;
     font-size: 25px;
