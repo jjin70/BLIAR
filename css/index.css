@@ -1,17 +1,8 @@
-/* div {
-    box-sizing: border-box;
-} */
-
-/* html {
-    line-height: 1.15;
-}   */
 body {
     padding-left: 35px;
     padding-right: 35px;
-    /* background-color: #E5E9EE; */
     width: 94%;
     height: 100%;
-    /* display: inline-block; */
 }
 
 #main_nav {
@@ -28,11 +19,8 @@ body {
 }    
 
 #main_nav nav {
-    /* background-color: #E5E9EE; */
     display: inline-block;
-    /* text-align: right; */
     font-size: 20px;
-    /* width: 1350px; */
 }
 
 #main_nav a {

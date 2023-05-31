@@ -7,7 +7,6 @@
     flex-direction: row;
     align-items: flex-start;
     /* justify-content: space-around; */
-    /* padding: 13px; */
     padding-left: 0px;
 }
 
@@ -15,8 +14,6 @@
     display: flex;
     flex-direction: column;
     /* align-items: flex-start; */
-    /* justify-content: space-around; */
-    /* width: calc(100% / 2); */
     padding: 10px;
     padding-left: 0px;
 }
@@ -91,7 +88,6 @@
     width: 105%;
     height: 555px;
     background: #CCD2DD;
-    /* margin-left: 24%; */
 }
 
 #main_todo p {
@@ -108,7 +104,6 @@
     height: 458px;
     background: #AFB8CA;
     margin-left: 15px;
-    /* margin-right: 14px; */
 }
 
 #main_todo form {

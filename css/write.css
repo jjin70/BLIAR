@@ -2,45 +2,11 @@
     font-weight: bold;
 }
 
-/* section {
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-}
-
-#write_search {
-    display: inline-block;
-    background: #AAB5C6;
-    width: 75%;
-    display: absolute;
-    top: 100px;
-}
-
-#write_search input[type=text] {
-    display: inline-block;
-    border: none;
-    font-size: 24px;
-    background: #AAB5C6;
-    width: 100%;
-    height: 100%;
-}
-
-
-#new_write {
-    display: inline-block;
-    background-color: #AAB5C6;
-    width: 23%;
-    height: 50px;
-    border: none;
-    font-size: 24px;
-} */
-
 .row {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     /* justify-content: space-around; */
-    /* padding: 13px; */
     padding-left: 0px;
 }
 
@@ -49,9 +15,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
-    /* width: calc(100% / 2); */
     padding: 10px;
-    /* padding-left: 0px; */
 }
 
 .column1 {
@@ -59,9 +23,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
-    /* width: calc(100% / 2); */
     padding: 10px;
-    /* padding-left: 0px; */
 }
 
 #write_search {
@@ -92,7 +54,6 @@
     border: none;
     font-size: 22px;
     font-weight: bold;
-    /* margin-left: 20px; */
     cursor:pointer;
 }
 
@@ -103,7 +64,6 @@
     font-size: 40px;
     margin-right: 14px;
     padding-left: 13px;
-    /* padding-top: 0px; */
 }
 
 #write_diary p {
@@ -113,14 +73,10 @@
 }
 
 #write_diary .diary {
-    /* width: 37%; */
-    /* height: 26%; */
     font-size: 0px;
     border-width: 1px;
-    /* border-style: solid; */
     border-collapse: collapse;
     margin-right: 12px;
-    /* padding: 5px; */
 }
 
 .diary tbody {
@@ -130,7 +86,6 @@
 #write_diary .diary tr, td {
     border-width: 1px;
     border-style: solid;
-    /* padding: 0px; */
 }
 
 #write_diary .diary tbody td {
@@ -166,7 +121,6 @@
     background-color: #CCD2DD;
     width: 33%;
     height: 475px;
-    /* margin-left: 35px; */
     font-size: 40px;
     margin-top: 0px;
     padding-left: 13px;

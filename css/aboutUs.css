@@ -6,8 +6,6 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    /* justify-content: space-around; */
-    /* padding: 13px; */
     padding-left: 0px;
 }
 
@@ -16,9 +14,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
-    /* width: calc(100% / 2); */
     padding: 10px;
-    /* padding-left: 0px; */
 }
 
 #aboutUs {
@@ -48,7 +44,6 @@
     /* width: 100%; */
     text-align: center;
     padding-left: 10px;
-    /* padding-top: 10px; */
 }
 
 #logo_ko {
@@ -56,7 +51,6 @@
     margin-bottom: 0px;
     font-size: 26px;
     font-weight: bolder;
-    /* font-family: 'Berlin Sans FB'; */
     color: #596A85;
     text-align: center;
     width: 100%;
